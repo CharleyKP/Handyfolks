@@ -57,4 +57,12 @@ ul {
   background-color: #f3f3f3;
 }
 
+.card {
+  height: 100%;
+}
+
+.list-group {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
