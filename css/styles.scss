@@ -66,3 +66,33 @@ ul {
 .list-group {
     list-style-type: none;
 }
+
+#services-card {
+    background-color: rgba(243, 243, 243, 0.051);
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 0;
+
+    .card-body {
+        padding: 0px;
+        margin: .5rem;
+
+    }
+
+    .card-title {
+        margin: 0;
+    }
+
+    .card-img-top {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .list-group-item {
+        padding: 5px 20px;
+    }
+
+}
+
+.list-group-item {
+    background-color: rgba(243, 243, 243, 0.051);
+}
