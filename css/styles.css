@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-brand {
-  font-size: 2.5em;
+  font-size: 2em;
   padding-bottom: 0px;
   padding-top: 0px;
 }
@@ -73,16 +73,25 @@ ul {
 }
 #services-card .card-body {
   padding: 0px;
-  margin: 0.5rem;
+  margin: 0.7rem;
 }
 #services-card .card-title {
   margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
 }
 #services-card .card-img-top {
   border-radius: 10px 10px 0px 0px;
 }
 #services-card .list-group-item {
-  padding: 5px 20px;
+  padding: 2px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: none;
+}
+#services-card .list-group {
+  border-top: groove;
+  margin-bottom: 0.75rem;
 }
 
 .list-group-item {
