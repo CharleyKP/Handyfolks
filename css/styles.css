@@ -102,26 +102,5 @@ ul {
     font-size: 1rem;
   }
 }
-@media (min-width: 576px) {
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  .nav-link {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  .nav-link {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 992px) {
-  .navbar-brand {
-    font-size: 2rem;
-  }
-}
 
 /*# sourceMappingURL=styles.css.map */
