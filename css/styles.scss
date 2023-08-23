@@ -130,7 +130,13 @@ ul {
 @media (max-width: 575px) {
     .navbar-brand {
         width: 60%;
+        margin: 0;
+        padding: 0;
     }
+
+    // .navbar-toggler {
+    //     float: right;
+    // }
 }
 
 //     .nav-link {
