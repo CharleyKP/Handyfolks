@@ -12,7 +12,6 @@ body {
 }
 
 .navbar-brand {
-  font-size: 1rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
@@ -92,6 +91,32 @@ ul {
 
 .list-group-item {
   background-color: rgba(243, 243, 243, 0.051);
+}
+
+#charley {
+  border-radius: 10px;
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+.iframe {
+  margin: 1rem;
+}
+
+.modal-lg {
+  margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -12,11 +12,9 @@ body {
 }
 
 .navbar-brand {
-    font-size: 1rem;
+
     padding-bottom: 1rem;
     padding-top: 1rem;
-
-
 }
 
 .nav-link {
@@ -107,28 +105,33 @@ ul {
     background-color: rgba(243, 243, 243, 0.051);
 }
 
-// @media (max-width: 575px) {
-//     .navbar-brand {
-//         font-size: 2rem;
-//     }
+#charley {
+    border-radius: 10px;
+}
 
-//     .nav-link {
-//         font-size: 1rem;
-//     }
-// }
+@media (max-width: 575px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
 
-// .iframe {
-//     margin: 1rem;
-// }
+    .nav-link {
+        font-size: 1rem;
+    }
+}
 
-// .modal-lg {
-//     margin: 0 auto;
-// }
+.iframe {
+    margin: 1rem;
+}
 
-// @media (min-width: 576px) {
-//     .navbar-brand {
-//         font-size: 2rem;
-//     }
+.modal-lg {
+    margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        width: 60%;
+    }
+}
 
 //     .nav-link {
 //         font-size: 1rem;
