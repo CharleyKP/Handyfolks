@@ -3,8 +3,8 @@ $(function () {
         $("#loginModal").modal('show');
     });
 
-    $("#signUpButton").on('click', function () {
-        $("#signUpModal").modal('show');
+    $("#servicesButton").on('click', function () {
+        $("#servicesModal").modal('show');
     });
 });
 

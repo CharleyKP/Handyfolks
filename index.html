@@ -46,7 +46,7 @@
                             Sign Up/Login
                         </li>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button" id="signUpButton">Sign Up</button>
+                            <button class="dropdown-item" type="button" id="servicesButton">Sign Up</button>
                             <div class="dropdown-divider"></div>
                             <button class="dropdown-item" type="button" id="loginButton">Login</button>
                         </div>
@@ -55,135 +55,129 @@
             </div>
         </div>
     </nav>
-    <div id="signUpModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Sign Up</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="signUpFirstName">First Name</label>
-                                    <input type="name" class="form-control" id="signUpFirstName"
-                                        placeholder="First Name">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="signUpLastName">Last Name</label>
-                                    <input type="name" class="form-control" id="signUpLastName" placeholder="Last Name">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email address</label>
-                                    <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Email address</label>
-                                    <input type="email" class="form-control" id="loginPassword"
-                                        placeholder="Enter Password">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="confirmPassword">Email address</label>
-                                    <input type="email" class="form-control" id="confirmPassword"
-                                        placeholder="Confirm Password">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
-                                    data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Create Account</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email address</label>
-                                    <input type="email" class="form-control-sm" id="loginEmail"
-                                        placeholder="Enter email">
-                                </div>
-                                <div class="form-group-col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
-                                        placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
-                                    data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 
     <div class="container-fluid px-0">
         <div class="header-image">
-            <img id="hero" src="img/dancestudio.png" class="img-fluid w-100" alt="Responsive image" />
+            <img id="hero" src="img/tools.jpg" class="img-fluid w-100" alt="Responsive image" />
         </div>
     </div>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">Services</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+    <div class="container-fluid mb-5">
+        <div class="row justify-content-center mb-2 mt-3">
+            <h2>Services</h2>
+        </div>
+        <div class="card-group m-1">
+            <div id="services-card" class="card col-xs-12 col-md-6 m-2 ">
+                <img class="card-img-top" src="img/home-repairs-drilling.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Repair and Maintenance</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item mt-2">Home Maintenance</li>
+                        <li class="list-group-item">Drywall Repair</li>
+                        <li class="list-group-item">Caulking</li>
+                        <li class="list-group-item">Lock and handle installation</li>
+                        <li class="list-group-item">Minor Home Repairs</li>
+                        <li class="list-group-item">Yard Work Services</li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                            class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                            class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                            class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                            class="fa fa-youtube"></i></a>
+            </div>
+            <div id="services-card" class="col-xs-12 col-md-6 card m-2">
+                <img class="card-img-top" src="img/WorkinginStudio3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mounting & Installation</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item mt-2">TVs</li>
+                        <li class="list-group-item">Curtain & Blinds</li>
+                        <li class="list-group-item">Shelves</li>
+                        <li class="list-group-item">Art & Picture hanging</li>
+                    </ul>
+                    <button class="dropdown-item" type="button" id="servicesButton">Request a quote</button>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+1555555555"><i class="fa fa-phone"></i>
-                        1-555-555-5555</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:email@email.com"><i class="fa fa-envelope-o"></i>
-                        email@email.com</a>
+            </div>
+            <div id="services-card" class="col-xs-12 col-md-6 card m-2">
+                <img class="card-img-top" src="img/tvmounting.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Furniture Assembly</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item mt-2">Desk Assembly</li>
+                        <li class="list-group-item">Dresser Assembly</li>
+                        <li class="list-group-item">Bed Assembly</li>
+                        <li class="list-group-item">Bookshelf Assembly</li>
+                        <li class="list-group-item">Couch Assembly</li>
+                        <li class="list-group-item">Chair Assembly</li>
+                        <li class="list-group-item">Wardrobe Assembly</li>
+                        <li class="list-group-item">Table Assembly</li>
+                        <li class="list-group-item">Disassemble furniture for moving</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div id="servicesModal" class="modal fade" role="dialog">
+            <div class="modal-lg" role="document">
+                <div class="modal-content col-12">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Request a quote</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSeh8qnoAY_JMaGzvATotGjPLerhagLCvQ0xFAFxZRmnsRl8YA/viewform?embedded=true"
+                                width="100%" height="1092" frameborder="0" marginheight="0"
+                                marginwidth="0">Loading…</iframe>
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                        </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+        <div class="row justify-content-center mb-2 mt-3">
+            <h2>About</h2>
+        </div>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="aboutus.html">Services</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a role="button" class="btn btn-link" href="tel:+1555555555"><i class="fa fa-phone"></i>
+                            1-555-555-5555</a><br />
+                        <a role="button" class="btn btn-link" href="mailto:email@email.com"><i
+                                class="fa fa-envelope-o"></i>
+                            email@email.com</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
 
 </body>
 
