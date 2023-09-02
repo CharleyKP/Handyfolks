@@ -13,9 +13,8 @@ body {
 }
 
 .navbar-brand {
-  width: 40%;
-  padding-bottom: 1rem;
-  padding-top: 2rem;
+  max-height: 80%;
+  max-width: 50%;
 }
 
 .nav-link {
@@ -38,6 +37,7 @@ a:hover {
   padding: 1em;
   min-height: 200px;
   color: #e9e9e9;
+  margin-top: 5rem;
 }
 
 #social-btn {
@@ -71,9 +71,6 @@ ul {
 }
 
 @media (min-width: 575px) {
-  .navbar-brand {
-    font-size: 2rem;
-  }
   .nav-link {
     font-size: 1rem;
   }
@@ -94,25 +91,36 @@ ul {
   }
   #about,
   #services {
-    padding-top: 5rem;
+    padding-top: 80px;
+  }
+}
+@media (min-width: 576px) {
+  .navbar-brand {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
+  #about,
+  #services {
+    padding-top: 90px;
   }
 }
 @media (min-width: 768px) {
   #about,
   #services {
-    padding-top: 112px;
+    padding-top: 5em;
   }
 }
 @media (min-width: 992px) {
   #about,
   #services {
-    padding-top: 130px;
+    padding-top: 100px;
   }
 }
 @media (min-width: 1200px) {
   #about,
   #services {
-    padding-top: 150px;
+    padding-top: 100px;
   }
 }
 .bg-image {
