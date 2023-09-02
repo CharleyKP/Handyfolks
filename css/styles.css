@@ -9,9 +9,11 @@ body {
 
 .navbar {
   background-color: #f3f3f3;
+  border-bottom: 2px solid #7B7D84;
 }
 
 .navbar-brand {
+  width: 40%;
   padding-bottom: 1rem;
   padding-top: 2rem;
 }
@@ -32,8 +34,9 @@ a:hover {
 }
 
 .site-footer {
-  background-image: linear-gradient(#f3f3f3, rgb(174, 173, 173));
+  background: rgb(66, 109, 111);
   padding: 1em;
+  min-height: 200px;
 }
 
 ul {
@@ -56,20 +59,11 @@ ul {
   background-color: #f3f3f3;
 }
 
-#services {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-#services #services-img {
-  border-radius: 10px;
-}
-
 #charley {
   border-radius: 10px;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 575px) {
   .navbar-brand {
     font-size: 2rem;
   }
@@ -90,6 +84,28 @@ ul {
     width: 60%;
     margin: 0;
     padding: 0;
+  }
+  #about,
+  #services {
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  #about,
+  #services {
+    padding-top: 112px;
+  }
+}
+@media (min-width: 992px) {
+  #about,
+  #services {
+    padding-top: 130px;
+  }
+}
+@media (min-width: 1200px) {
+  #about,
+  #services {
+    padding-top: 150px;
   }
 }
 .bg-image {
@@ -120,14 +136,15 @@ ul {
   justify-content: center !important;
 }
 
-.bg-image .mask .text p {
+.bg-image .mask {
   margin: 0;
 }
 
 #services-list {
   list-style-type: none;
-  color: rgb(233, 233, 233);
+  color: #e9e9e9;
   padding: 0;
+  margin: auto;
 }
 
 #services-card-container {
