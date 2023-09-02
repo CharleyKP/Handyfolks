@@ -56,10 +56,6 @@ ul {
   background-color: #f3f3f3;
 }
 
-.list-group {
-  list-style-type: none;
-}
-
 #services {
   position: relative;
   text-align: center;
@@ -117,7 +113,7 @@ ul {
   color: #fff;
 }
 
-.bg-image .mask .text {
+.bg-image .mask #services-list-container {
   height: 100%;
   display: flex !important;
   align-items: center !important;
@@ -126,6 +122,16 @@ ul {
 
 .bg-image .mask .text p {
   margin: 0;
+}
+
+#services-list {
+  list-style-type: none;
+  color: rgb(233, 233, 233);
+  padding: 0;
+}
+
+#services-card-container {
+  padding: 5px 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

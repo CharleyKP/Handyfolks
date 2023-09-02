@@ -58,48 +58,10 @@ ul {
     background-color: #f3f3f3;
 }
 
-// .card {
-//     height: 100%;
-// }
 
-.list-group {
-    list-style-type: none;
-}
 
-// #services-card {
-//     background-color: rgba(243, 243, 243, 0.051);
-//     border: 1px solid grey;
-//     border-radius: 10px;
-//     padding: 0;
 
-//     .card-body {
-//         padding: 0px;
-//         margin: .7rem;
-//     }
 
-//     .card-title {
-//         margin: 0;
-//         font-size: 1rem;
-//         font-weight: 600;
-//     }
-
-//     .card-img-top {
-//         border-radius: 10px 10px 0px 0px;
-//     }
-
-//     .list-group-item {
-//         padding: 2px 20px;
-//         font-size: 1rem;
-//         font-weight: 500;
-//         border-bottom: none;
-//     }
-
-//     .list-group {
-//         border-top: groove;
-//         margin-bottom: .75rem;
-//     }
-
-// }
 
 #services {
     position: relative;
@@ -109,23 +71,12 @@ ul {
     #services-img {
         border-radius: 10px;
     }
+
+
 }
 
 
-// .overlay-div {
-//     height: 100%;
-//     width: 100%;
-//     position: absolute;
-//     background-color: #000;
-//     opacity: .5;
 
-//     border-radius: 10px;
-// }
-
-
-// .list-group-item {
-//     background-color: rgba(243, 243, 243, 0.051);
-// }
 
 #charley {
     border-radius: 10px;
@@ -207,9 +158,10 @@ ul {
     height: 100%;
     overflow: hidden;
     color: #fff;
+
 }
 
-.bg-image .mask .text {
+.bg-image .mask #services-list-container {
     height: 100%;
     display: flex !important;
     align-items: center !important;
@@ -218,4 +170,14 @@ ul {
 
 .bg-image .mask .text p {
     margin: 0;
+}
+
+#services-list {
+    list-style-type: none;
+    color: rgb(233, 233, 233);
+    padding: 0;
+}
+
+#services-card-container {
+    padding: 5px 5px;
 }
