@@ -60,37 +60,13 @@ ul {
   list-style-type: none;
 }
 
-#services-card {
-  background-color: rgba(243, 243, 243, 0.051);
-  border: 1px solid grey;
+#services {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#services #services-img {
   border-radius: 10px;
-  padding: 0;
-}
-#services-card .card-body {
-  padding: 0px;
-  margin: 0.7rem;
-}
-#services-card .card-title {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
-}
-#services-card .card-img-top {
-  border-radius: 10px 10px 0px 0px;
-}
-#services-card .list-group-item {
-  padding: 2px 20px;
-  font-size: 1rem;
-  font-weight: 500;
-  border-bottom: none;
-}
-#services-card .list-group {
-  border-top: groove;
-  margin-bottom: 0.75rem;
-}
-
-.list-group-item {
-  background-color: rgba(243, 243, 243, 0.051);
 }
 
 #charley {
@@ -119,6 +95,37 @@ ul {
     margin: 0;
     padding: 0;
   }
+}
+.bg-image {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bg-image .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+.bg-image .mask .text {
+  height: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.bg-image .mask .text p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
