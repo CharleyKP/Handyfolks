@@ -6,6 +6,11 @@ $(function () {
     $("#servicesButton").on('click', function () {
         $("#servicesModal").modal('show');
     });
+
+    $("#xButton").on('click', function () {
+        $("#servicesModal").modal('close');
+    });
+
 });
 
 $(function () {
