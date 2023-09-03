@@ -27,11 +27,6 @@ a:hover {
   text-decoration: none;
 }
 
-.btn-link {
-  color: inherit;
-  text-decoration: none;
-}
-
 .site-footer {
   background: rgb(66, 109, 111);
   padding: 1em;
@@ -70,11 +65,6 @@ ul {
   border-radius: 10px;
 }
 
-@media (min-width: 575px) {
-  .nav-link {
-    font-size: 1rem;
-  }
-}
 .iframe {
   margin: 1rem;
 }
@@ -91,14 +81,14 @@ ul {
   }
   #about,
   #services {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 @media (min-width: 576px) {
   .navbar-brand {
     width: 60%;
     margin: 0;
-    padding: 0;
+    padding: 0 5px;
   }
   #about,
   #services {
@@ -106,18 +96,30 @@ ul {
   }
 }
 @media (min-width: 768px) {
+  .navbar-brand {
+    padding: 5px 5px;
+  }
   #about,
   #services {
     padding-top: 5em;
   }
 }
 @media (min-width: 992px) {
+  .navbar-brand {
+    padding: 5px 5px;
+  }
   #about,
   #services {
     padding-top: 100px;
   }
+  .nav-link {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 1200px) {
+  .navbar-brand {
+    padding: 5px 5px;
+  }
   #about,
   #services {
     padding-top: 100px;
@@ -164,6 +166,16 @@ ul {
 
 #services-card-container {
   padding: 5px 5px;
+}
+
+#services-list-container {
+  text-align: center;
+}
+
+#services-list {
+  text-align: center;
+  list-style: inside;
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

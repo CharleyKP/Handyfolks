@@ -8,6 +8,16 @@ $(function () {
     });
 });
 
+$(function () {
+    $("#services-link").on('click', function () {
+        $("#handyfolksNavbar").collapse('toggle');
+    });
+
+    $("#about-link").on('click', function () {
+        $("#handyfolksNavbar").collapse('toggle');
+    });
+});
+
 
 /*  ==========================================
     SHOW UPLOADED IMAGE
