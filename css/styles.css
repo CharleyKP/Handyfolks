@@ -80,7 +80,8 @@ ul {
     padding: 0;
   }
   #about,
-  #services {
+  #services,
+  #contact {
     padding-top: 60px;
   }
 }
@@ -91,7 +92,8 @@ ul {
     padding: 0 5px;
   }
   #about,
-  #services {
+  #services,
+  #contact {
     padding-top: 90px;
   }
 }
@@ -100,7 +102,8 @@ ul {
     padding: 5px 5px;
   }
   #about,
-  #services {
+  #services,
+  #contact {
     padding-top: 5em;
   }
 }
@@ -109,7 +112,8 @@ ul {
     padding: 5px 5px;
   }
   #about,
-  #services {
+  #services,
+  #contact {
     padding-top: 100px;
   }
   .nav-link {
@@ -118,11 +122,16 @@ ul {
 }
 @media (min-width: 1200px) {
   .navbar-brand {
-    padding: 5px 5px;
+    max-width: 25%;
+    padding: 8px 8px;
+  }
+  .navbar {
+    max-height: 12vh;
   }
   #about,
-  #services {
-    padding-top: 110px;
+  #services,
+  #contact {
+    padding-top: 80px;
   }
 }
 .bg-image {
