@@ -84,6 +84,9 @@ ul {
   #contact {
     padding-top: 60px;
   }
+  #charley {
+    margin-bottom: 1em;
+  }
 }
 @media (min-width: 576px) {
   .navbar-brand {
@@ -95,6 +98,9 @@ ul {
   #services,
   #contact {
     padding-top: 90px;
+  }
+  #charley {
+    margin-bottom: 1em;
   }
 }
 @media (min-width: 768px) {
