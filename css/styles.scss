@@ -96,6 +96,8 @@ ul {
         padding-top: 60px;
     }
 
+
+
 }
 
 @media (min-width: 576px) {
@@ -111,18 +113,21 @@ ul {
         padding-top: 90px;
     }
 
+
+
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .navbar-brand {
+        max-width: 25%;
         padding: 5px 5px;
     }
 
     #about,
     #services,
     #contact {
-        padding-top: 5em;
+        padding-top: 4em;
     }
 }
 
@@ -130,12 +135,13 @@ ul {
 @media (min-width: 992px) {
     .navbar-brand {
         padding: 5px 5px;
+        max-width: 25%;
     }
 
     #about,
     #services,
     #contact {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     .nav-link {
@@ -146,7 +152,7 @@ ul {
 // // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     .navbar-brand {
-        max-width: 25%;
+        max-width: 20%;
         padding: 8px 8px;
     }
 
@@ -212,7 +218,8 @@ ul {
 }
 
 #services-list {
-    text-align: center;
-    list-style: inside;
+    // text-align: center;
+    // list-style: inside;
     list-style: none;
+    font-size: 1rem;
 }
