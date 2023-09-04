@@ -194,4 +194,8 @@ ul {
   font-size: 1rem;
 }
 
+#contact-link:hover {
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */
